@@ -1,0 +1,24 @@
+td{
+    border: 1px solid black;
+}
+th{
+    border: 2px solid;
+    border-radius: 3px;
+    background-color: rgb(143, 254, 118);
+}
+
+th:hover{
+    color: blue;
+}
+
+nav{
+    background-color: rgb(143, 254, 118);
+    height: 45px;
+    width: 1000px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}

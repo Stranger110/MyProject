@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+<body>
+    <div class="card">
+        <form class="form">
+            <div class="flex-column">
+              <label>Email </label></div>
+              <div class="inputForm">
+                <input id="email" type="email" class="input" placeholder="Enter your Email">
+              </div>
+            
+            <div class="flex-column">
+              <label>Confirm Email </label></div>
+              <div class="inputForm">
+                <input id="email" type="email" class="input" placeholder="Confirm Email">
+              </div>
+
+              <div class="flex-column">
+                <label>Phone Number </label></div>
+                <div class="inputForm">
+                    <input type="tel" id="phone" class="input" name="phone" placeholder="Enter your Number">
+                </div>
+
+                <div class="flex-column">
+                    <label>Confirm Number </label></div>
+                    <div class="inputForm">
+                        <input type="tel" id="phone" class="input" name="phone" placeholder="Confirm Number">
+                    </div>
+<button class="button-submit">Verify</button>
+<p class="p">already have an account? <a href="index.html"><span class="span">Sign In</span></a>
+</form>
+</div>
+<script>
+  var input = document.querySelector("#phone");
+  window.intlTelInput(input, {
+    // whether or not to allow the dropdown
+    allowDropdown: true,
+    // add a placeholder in the input with an example number for the selected country
+    autoPlaceholder: "polite",
+    // add a country search input at the top of the dropdown
+    countrySearch: true,
+    // modify the parentClass
+    containerClass: "",
+    // modify the auto placeholder
+    customPlaceholder: null,
+    // append menu to specified element
+    dropdownContainer: null,
+    // don't display these countries
+    excludeCountries: [],
+    // fix the dropdown width to the input width (rather than being as wide as the longest country name)
+    fixDropdownWidth: true,
+    // format the number as the user types
+    formatAsYouType: true,
+    // format the number when the input loses focus
+    formatOnDisplay: true,
+    // format the number when the input is valid
+    formatOnDefaultCountry: true,
+    // format the number when the input is valid
+    formatOnBlur: true,
+    // format the number when the input is valid
+    formatOnKeyUp: true,
+    // format the number when the input is valid
+    formatOnFocus: true,
+    // format the number when the input is valid
+    formatOnInit: true,
+    // format the number when the input is valid
+    formatOnInvalid: true,
+    // format the number when the input is valid
+    formatOnValid: true,
+    // format the number when the input is valid
+    formatOnChange: true,
+    // format the number when the input is valid
+    formatOnInput: true,
+    // format the number when the input is valid
+    formatOnSubmit: true,
+    // format the number when the input is valid
+    formatOnReset: true,
+    // format the number when the input is valid
+    formatOnClear: true,
+    // format the number when the input is valid
+    formatOnSet: true,
+    // format the number when the input is valid
+    formatOnUpdate: true,
+    // format the number when the input is valid
+    formatOnLoad: true,
+    // format the number when the input is valid
+    formatOnUnload: true,
+    // format the number when the input is valid
+    formatOnError: true,
+    // format the number when the input is valid
+    formatOnSuccess: true,
+    // format the number when the input is valid
+    formatOnComplete: true,
+    // format the number when the input is valid
+    formatOnAbort: true,
+    // format the number when the input is valid
+    formatOnProgress: true,
+    // format the number when the input is valid
+    formatOnTimeout: true,
+    // format the number when the input is valid
+    formatOnReadyStateChange: true,
+    // format the number when the input is valid
+    formatOnPageShow: true,
+    // format the number when the input is valid
+    formatOnPageHide: true,
+    // format the number when the input is valid
+    formatOnPageVisibilityChange: true,
+    // format the number when the input is valid
+    formatOnHashChange: true,
+  }
+);
+</script>
+</script>                
+</body>
+</html>
